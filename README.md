@@ -12,3 +12,5 @@ if create-react-app is not recognized:
 npm install react-router-dom 
 
 Added settings.json in vscode and prettierrc files
+
+Made use of Browser Router, Routes and Route from react-router-dom package
