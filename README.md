@@ -18,3 +18,7 @@ Made use of Browser Router, Routes and Route from react-router-dom package
 Completed the setup of the base react router project
 
 Made use of useParams hook to obtain parameters from the url
+
+use outlet from react-router-dom to wrap it over another component
+
+Made use of outlet to add a wrapper over the about pages
