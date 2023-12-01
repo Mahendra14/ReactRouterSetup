@@ -11,7 +11,10 @@ const App: FunctionComponent<AppProps> = () => {
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home />}/>
-      <Route path="about" element={<About />} />
+      <Route path="about">
+        <Route index element={<About />} />
+        <Route path=":number" element={<About />} />
+      </Route>
     </Routes>
     </BrowserRouter>
     );

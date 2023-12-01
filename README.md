@@ -14,3 +14,7 @@ npm install react-router-dom
 Added settings.json in vscode and prettierrc files
 
 Made use of Browser Router, Routes and Route from react-router-dom package
+
+Completed the setup of the base react router project
+
+Made use of useParams hook to obtain parameters from the url
