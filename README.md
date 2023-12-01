@@ -22,3 +22,5 @@ Made use of useParams hook to obtain parameters from the url
 use outlet from react-router-dom to wrap it over another component
 
 Made use of outlet to add a wrapper over the about pages
+
+making use of useNavigate hook for navigating to different routes irrespective of children components
