@@ -29,3 +29,6 @@ making use of useNavigate hook for navigating to different routes irrespective o
 React Router splits up the application to pages. ( state & logic )
 
 We can take out the Routes into a different folder as well
+
+# using a routes folder
+Using the createBrowserRoute, RouterProvider from react-router-dom 

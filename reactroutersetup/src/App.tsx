@@ -9,21 +9,22 @@ interface AppProps {
  
 const App: FunctionComponent<AppProps> = () => {
   return (
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home />}/>
-      <Route path="about">
-        <Route index element={<About />} />
-        <Route path=":number" element={<About />} />
-      </Route>
+    // <BrowserRouter>
+    // <Routes>
+    //   <Route path="/" element={<Home />}/>
+    //   <Route path="about">
+    //     <Route index element={<About />} />
+    //     <Route path=":number" element={<About />} />
+    //   </Route>
 
-      {/* addding the layout component on top of about */}
-      <Route path="layout" element={<LayoutComponent />} >
-        < Route index element={<About/>} />
-        <Route path=":number" element={<About />} />
-      </Route>
-    </Routes>
-    </BrowserRouter>
+    //   {/* addding the layout component on top of about */}
+    //   <Route path="layout" element={<LayoutComponent />} >
+    //     < Route index element={<About/>} />
+    //     <Route path=":number" element={<About />} />
+    //   </Route>
+    // </Routes>
+    // </BrowserRouter>
+    <LayoutComponent></LayoutComponent>
     );
 }
  
