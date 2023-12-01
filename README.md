@@ -9,7 +9,8 @@ To setup the application made use of npx create-react-app react-router-6 --templ
 if create-react-app is not recognized:
     npm install -g create-react-app
 
-npm install react-router-dom 
+npm install react-router ( for mobile)
+npm install react-router-dom ( for web portion of it) 
 
 Added settings.json in vscode and prettierrc files
 
@@ -24,3 +25,7 @@ use outlet from react-router-dom to wrap it over another component
 Made use of outlet to add a wrapper over the about pages
 
 making use of useNavigate hook for navigating to different routes irrespective of children components
+
+React Router splits up the application to pages. ( state & logic )
+
+We can take out the Routes into a different folder as well
