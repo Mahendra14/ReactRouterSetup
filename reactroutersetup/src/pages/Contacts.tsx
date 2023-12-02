@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 
 export interface IAboutPageProps {}
 
-const AboutPage: React.FunctionComponent<IAboutPageProps> = (props) => {
+const Contacts: React.FunctionComponent<IAboutPageProps> = (props) => {
     const [message, setMessage] = useState('');
     const { number } = useParams();
 
@@ -24,4 +24,4 @@ const AboutPage: React.FunctionComponent<IAboutPageProps> = (props) => {
     );
 };
 
-export default AboutPage;
+export default Contacts;

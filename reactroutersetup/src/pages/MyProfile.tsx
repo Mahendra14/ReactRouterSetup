@@ -4,7 +4,7 @@ interface HomeProps {
     
 }
  
-const Home: React.FunctionComponent<HomeProps> = () => {
+const MyProfile: React.FunctionComponent<HomeProps> = () => {
     const navigate = useNavigate();
     return ( 
         <div>
@@ -17,4 +17,4 @@ const Home: React.FunctionComponent<HomeProps> = () => {
      );
 }
  
-export default Home;
+export default MyProfile;
